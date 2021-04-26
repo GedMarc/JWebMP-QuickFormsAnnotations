@@ -1,0 +1,38 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.jwebmp.plugins.forms</groupId>
+        <artifactId>jwebmp-plugins-forms-parent</artifactId>
+        <version>0.0.0_0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>jwebmp-quickforms-annotations</artifactId>
+    <packaging>jar</packaging>
+
+    <name>QuickForms Annotations</name>
+    <description>The QuickForms Annotations implementation</description>
+    <url>https://github.com/GedMarc/JWebMP-QuickFormsAnnotations</url>
+
+    <issueManagement>
+        <system>Github</system>
+        <url>https://github.com/GedMarc/JWebMP-QuickFormsAnnotations/issues</url>
+    </issueManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.guicedee</groupId>
+            <artifactId>guiced-injection</artifactId>
+        </dependency>
+    </dependencies>
+
+    <scm>
+        <url>https://github.com/GedMarc/JWebMP-QuickFormsAnnotations.git</url>
+    </scm>
+
+    <ciManagement>
+        <system>TeamCity</system>
+        <url>http://jwebmp.com/teamcity</url>
+    </ciManagement>
+
+</project>

@@ -12,7 +12,7 @@
 
     <artifactId>jwebmp-quickforms-annotations</artifactId>
     <packaging>jar</packaging>
-
+    <version>0.0.0_0-SNAPSHOT</version>
     <name>QuickForms Annotations</name>
     <description>The QuickForms Annotations implementation</description>
     <url>https://github.com/GedMarc/JWebMP-QuickFormsAnnotations</url>
